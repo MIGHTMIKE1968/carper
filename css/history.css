@@ -8,6 +8,11 @@
     color: white !important;
 }
 
+.dropdown-item:hover{
+    color: rgb(135, 1, 1) !important;
+    background: rgb(250, 247, 150) !important;
+}
+
 .navbar-nav .nav-item .nav-link:hover{
     color: pink !important;
 }
@@ -55,17 +60,17 @@ h3 {
 
 .about1 {
     font-family: Engagement;
-    font-size: 6rem;
+    font-size: 5rem;
     color: black;
-    padding-left: 90px;
-    padding-right: 90px;
+    padding-left: 80px;
+    padding-right: 80px;
     line-height: 0.9;
 }
 
 .about2 {
     font-size: 1.4rem;
-    padding-left: 90px;
-    padding-right: 90px;
+    padding-left: 80px;
+    padding-right: 80px;
 }
 
 .c {

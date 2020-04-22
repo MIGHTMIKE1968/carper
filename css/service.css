@@ -1,3 +1,7 @@
+body {
+    background-color: rgb(255, 253, 224);
+}
+
 .navbar-dark{
     background: rgb(135, 1, 1);
     
@@ -9,6 +13,11 @@
 
 .navbar-nav .nav-item .nav-link:hover{
     color: pink !important;
+}
+
+.dropdown-item:hover{
+    color: rgb(135, 1, 1) !important;
+    background: rgb(250, 247, 150) !important;
 }
 
 .fa-envelope {
@@ -36,8 +45,8 @@
 
 h1 {
     font-family: Source Sans Pro;
-    font-size: 2.2rem;
-    text-align: left;
+    font-size: 2.25rem;
+    text-align: center;
     line-height: normal;
 }
 
@@ -58,23 +67,20 @@ h3 {
 }
 
 .about1 {
+    font-size: 2.75rem;
     color: rgb(156, 3, 18);
-    padding-left: 90px;
-    padding-right: 90px;
+    text-align: center;
+    line-height: normal;
 }
 
 .about2 {
     font-size: 1.4rem;
-    padding-left: 90px;
-    padding-right: 90px;
+    padding-left: 75px;
+    padding-right: 75px;
+    text-align: left;
+    
 }
 
-.c {
-    font-family: Pacifico;
-    font-size: 3rem;
-    color: rgb(156, 3, 18);
-    line-height: 0.6;
-}
 
 .plan {
     float: right;
@@ -91,7 +97,7 @@ h3 {
     margin-right: 20px;
     padding-top: 100px;
     padding-bottom: 0px;
-    border:1px solid rgb(156, 3, 18);
+    background-color: white;
 }
 
 .social2 {
