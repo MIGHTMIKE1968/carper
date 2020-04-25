@@ -22,7 +22,7 @@ if ($_POST['submit']) {
 	if ($error) {
 		$results='<div class="alert alert-danger" role="alert"><strong>Sorry, there is an error.</strong> Please correct the following: '.$error.' </div';
 	} else {
-		mail("carolecarper@gmail.com.com", "Contact message", "Name: ".$_POST['name'].
+		mail("carolecarper@gmail.com", "Contact message", "Name: ".$_POST['name'].
 			"Email: ".$_POST['email'].
 			"Message: ".$_POST['message']);
 		{
@@ -163,7 +163,7 @@ if ($_POST['submit']) {
             <a href="history.html">HISTORY</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
             <a href="services.html">SERVICES</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
             <a href="catalog.html">PRODUCTS</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            <a href="#">CONTACT US</a>
+            <a href="contact.php">CONTACT US</a>
         </h3><br>
         
         <h3 class="address">3204 Samuel Shepard Dr • Saint Louis, MO 63103 <br>Tel: (314)531-6757 <br><br>
@@ -172,7 +172,11 @@ if ($_POST['submit']) {
         </h3>
     </div>
 	
-	
+	<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
 </body>
 </html>
 

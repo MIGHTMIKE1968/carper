@@ -8,7 +8,7 @@ body {
     text-transform: uppercase;
     font-weight: 600;
     background-color: white;
-    border:4px solid rgb(169, 218, 252);
+    border:4px solid rgb(94, 96, 219);
     padding: 15px 0 15px 15px;
 }
 
@@ -79,9 +79,9 @@ h3 {
 
 .row {
     margin: 60px 0px 100px 0px;
-    padding: 0px 25px 40px 25px;
-    background: url("../img/cloud_02.jpg") no-repeat center;
+    padding: 0px 25px 10px 25px;
     background-size:cover;
+    background-color: rgb(255, 255, 242);
 }
 
 .footer {
@@ -125,7 +125,7 @@ h3 {
     text-align: center;
     text-transform: none;
     line-height: 1;
-    padding-top: 50px;
+    padding-top: 40px;
     color: black;
 }
 
@@ -136,6 +136,7 @@ h3 {
     font-weight: normal;
     line-height: 1;
     color: rgb(25, 17, 125);
+    padding-top: 40px;
 }
 
 
