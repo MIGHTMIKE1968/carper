@@ -81,7 +81,6 @@ h3 {
     margin: 60px 0px 100px 0px;
     padding: 0px 25px 10px 25px;
     background-size:cover;
-    background-color: rgb(255, 255, 242);
 }
 
 .footer {
@@ -116,7 +115,6 @@ h3 {
 .img-thumbnail {
     margin-bottom: 8px;
     margin-top: 5px;
-    border:3px solid rgb(28, 5, 128);
 }
 
 .title {
